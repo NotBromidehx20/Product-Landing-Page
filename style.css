@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+} 
+
+body{
+    font-family: cursive;
+    height: 100hv;    
+    background-color:#ffe6eb;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.navbar{
+    margin: auto;
+    width:90%;
+}
+
+.nav-container{
+    padding: 20px 0px;
+}
+
+.nav-container h2{
+    color: #333;
+    font-size: 40px;
+}
+
+.nav-container .nav{
+    justify-self: flex-end;
+    display: flex;
+}
+
+.nav-container .nav a{
+    color: #333;
+    margin: 0px 20px;
+    font-size: 25px;
+}
+
+.nav-container .nav .active{
+    background: #333;
+    padding: 15px;
+    color: white;
+    border-radius: 20px;
+}
+
+.header{
+    margin: 70px;
+    width: 80%; 
+}
+
+.header-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.header-container div h3{
+    font-size: 60px;
+}
+
+.header-container div h3::after{
+    content: "";
+    position: absolute;
+    background-color: pink;
+    height: 3px;
+    width: 130px;
+    top: 42%;
+    left: 9%;
+}
+
+.header-container p{
+    margin: 20px 0px;
+    font-size: 20px;
+}
+
+.header-container div a{
+    padding: 15px;
+    background: #333;
+    margin: 20px 0px;
+    display:inline-block;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.header-container img{
+    width: 100%;
+    height: 80%;
+    margin-left: 10px;
+    border-radius: 20px;
+    border: #333 solid 1px;
+}
+
+.features{
+    font-size: 20px;
+}
+
+.features li{
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.watermark{
+    position: absolute;
+    top: -6%;
+    left: 9%;
+    opacity: .1;
+    z-index: -1;
+}
+
+.footer{
+    margin: 100px 0 0 0;
+    background: #333;
+    padding: 100px 90px;
+}
+
+.footer .footer-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+    margin-left: 150px;
+}
+
+.footer-container div h4{
+    color: pink;
+    font-size: 25px;
+    margin: 10px, 0px;
+    -webkit-text-stroke: 1px #333;
+}
+
+.footer-container div li{
+    cursor: pointer;
+    margin: 20px 0px;
+    color:black;
+    font-size: 20px;
+}
+
+hr{
+    margin: 20px 0px;
+    opacity: .1;
+}
